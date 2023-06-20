@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>Welcome</H1>
+    <form action="/admin/all" method="get">
+        <button type="submit">Search all books</button>
+    </form>
+    <form action="/admin/find" method="get">
+        <h4>Search by id</h4>
+        <input type="text" name="qid">
+        <button type="submit">Search all books</button>
+    </form>
+    <form action="/admin/insert" method="post">
+        <h4>Insert</h4>
+        <label>ID</label>
+        <input type="text" name="Iid">
+        <label>name</label>
+        <input type="text" name="bname">
+        <label>Author's name</label>
+        <input type="text" name="aname">
+        <button type="submit">Search all books</button>
+    </form>
+    <form action="/admin/update" method="post">
+        <h4>Update book with existing id</h4>
+        <label>ID</label>
+        <input type="text" name="Iid">
+        <label>name</label>
+        <input type="text" name="bname">
+        <label>Author's name</label>
+        <input type="text" name="aname">
+        <button type="submit">Update</button>
+    </form>
+    <form action="/admin/login" method="get">
+        <h4>LOG OUT</h4>
+        <button type="submit">Click to logout</button>
+    </form>
+</body>
+</html>
